@@ -15,8 +15,8 @@ from PIL import ImageGrab
 
 # %%
 # Configuration
-NUM_SCREENSHOTS = 5                # 30 
-DURATION_SECONDS = 300             # 2 * 60 * 60  # 2 hours
+NUM_SCREENSHOTS = 10                # 30 
+DURATION_SECONDS = 120             # 2 * 60 * 60  # 2 hours
 
 # Find the directory containing this script/executable
 if getattr(sys, 'frozen', False):
